@@ -1,0 +1,76 @@
+[
+  {
+    "category": "hall",
+    "description": "Salón",
+    "permissions": [
+      {
+        "code": "hall_view",
+        "description": "Visualizar salón"
+      },
+      {
+        "code": "hall_edit",
+        "description": "Editar salón"
+      },
+      {
+        "code": "hall_delete",
+        "description": "Eliminar salón"
+      },
+      {
+        "code": "hall_add",
+        "description": "Agregar salón"
+      },
+      {
+        "code": "hall_table_view",
+        "description": "Visualizar mesas"
+      },
+      {
+        "code": "hall_table_add_product",
+        "description": "Tomar pedido"
+      }
+    ]
+  },
+  {
+    "category": "production_stock",
+    "description": "Stock producto terminado",
+    "permissions": [
+      {
+        "code": "production_stock_view",
+        "description": "Visualizar producción"
+      },
+      {
+        "code": "production_stock_edit",
+        "description": "Editar producción"
+      },
+      {
+        "code": "production_stock_delete",
+        "description": "Eliminar producción"
+      },
+      {
+        "code": "production_stock_create",
+        "description": "Agregar producción"
+      }
+    ]
+  },
+  {
+    "category": "receipt",
+    "description": "Recetario",
+    "permissions": [
+      {
+        "code": "receipt_view",
+        "description": "Visualizar recetas"
+      },
+      {
+        "code": "receipt_edit",
+        "description": "Editar recetas"
+      },
+      {
+        "code": "receipt_delete",
+        "description": "Eliminar recetas"
+      },
+      {
+        "code": "receipt_create",
+        "description": "Agregar recetas"
+      }
+    ]
+  }
+]
