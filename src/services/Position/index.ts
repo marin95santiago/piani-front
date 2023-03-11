@@ -4,7 +4,7 @@ import positionMapper from '../../mappers/Position/position.mapper'
 class PositionService {
   async getPositions (token: string) {
     try {
-      const responseApi = await axios.get('/position', {
+      const responseApi = await axios.get('/api/position', {
         headers: {
           authorization: token
         }

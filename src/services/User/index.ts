@@ -11,7 +11,7 @@ class UserService {
 
   async login (username: string, password: string) {
     try {
-      const responseApi = await axios.post('/login', { username, password })
+      const responseApi = await axios.post('/api/login', { username, password })
       const response = responseApi.data
       if (!response.token) throw new Error('No recuperó token')
       const tokenData = jwt<jwtDecode>(response.token)
